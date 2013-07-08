@@ -1,0 +1,6 @@
+<RCC>
+<qresource>
+    <file>qss/mine.qss</file>
+    <file>best_times.txt</file>
+</qresource>
+</RCC>
