@@ -1,0 +1,90 @@
+Spot {
+    color: black;
+    background-color: grey;
+    font-weight: bold;
+    min-width: 25px;
+    /* max-width: 30px; */
+    width: 25px;
+    min-height: 25px;
+    /* max-height: 30px; */
+    height: 25px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: black;
+}
+
+Spot[over=true] {
+    background-color: rgb(200, 40, 200);
+}
+
+Spot[revealed=true] {
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(220, 220, 220);
+    border-width: 1px;
+}
+
+Spot[revealed=true][over=true] {
+    border-color: rgb(240, 180, 140);
+}
+
+Spot[boom=true] {
+    background-color: rgb(20, 20, 20);
+    border-color: black;
+    color: white;
+}
+
+Spot[flag=true] {
+    background-color: red;
+}
+
+Spot[nearby="1"] {
+    color: blue;
+}
+
+Spot[nearby="2"] {
+    color: green;
+}
+
+Spot[nearby="3"] {
+    color: red;
+}
+
+Spot[nearby="4"] {
+    color: purple;
+}
+
+Spot[nearby="5"] {
+    color: maroon;
+}
+
+Spot[nearby="6"] {
+    color: turquoise;
+}
+
+Spot[nearby="7"] {
+    color: black;
+}
+
+Spot[nearby="8"] {
+    color: grey;
+}
+
+.QPushButton {
+
+}
+
+MainWindow {
+    background-color: rgb(200, 200, 200);
+}
+
+QStatusBar {
+    background-color: rgb(200, 200, 200);
+}
+
+QLabel {
+    padding-left: 1em;
+}
+
+Spot[pressed=true] {
+    background-color: black;
+}
