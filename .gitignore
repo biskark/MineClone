@@ -1,0 +1,11 @@
+# Compiled C++ and Qt Files
+Makefile
+*.pro
+*.o
+moc_*
+qrc_*
+
+# Databases and Archives
+*.tar
+*.zip
+*.sqlite
