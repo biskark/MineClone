@@ -92,7 +92,7 @@ void Grid::reveal(Spot *spot, const char *type, int criteria) {
                 ++count;
             }
             // temp is a correctly flagged mine
-            else if (temp and temp->property("flag").toBool() and temp->is_mine()) {
+            else if (std::strcmp(type, "flag") == 0 and temp and temp->property("flag").toBool()) {
                 ++count;
             }
         }
