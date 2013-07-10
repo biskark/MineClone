@@ -1,7 +1,7 @@
 MineClone
 *********
 
-A Minesweeper clone written with C++ and Qt4
+A Minesweeper clone written with C++ and Qt4 by Kevin Biskar
 
 
 *
@@ -15,4 +15,7 @@ $ qmake-qt4 -project
 $ qmake-qt4
 $ make
 
-Then either run the executable from the directory or copy it to your path
+Then either run the executable from the directory or copy it to your path.
+
+Note that to keep track of best times, this program will create a file in
+your home directory called '.mineclone.sav'.
