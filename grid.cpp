@@ -91,7 +91,8 @@ void Grid::reveal(Spot *spot, const char *type, int criteria) {
             if (std::strcmp(type, "mine") == 0 and temp and temp->is_mine()) {
                 ++count;
             }
-            else if (temp and temp->property("flag").toBool()) {
+            // temp is a correctly flagged mine
+            else if (temp and temp->property("flag").toBool() and temp->is_mine()) {
                 ++count;
             }
         }
