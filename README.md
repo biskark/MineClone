@@ -9,6 +9,8 @@ INSTALLATION
 _Must have a C++ compiler and Qt4 installed and accessible in your path._
 
 ```bash
+$ git clone https://github.com/biskark/MineClone.git
+$ cd MineClone
 $ qmake-qt4 -project
 $ qmake-qt4
 $ make
@@ -16,6 +18,17 @@ $ make
 
 Then either run the executable from within the directory or copy it to your
 path.
+
+```bash
+$ ./MineClone
+```
+
+or
+
+```bash
+$ cp MineClone ~/bin
+$ MineClone
+```
 
 Other
 -----
