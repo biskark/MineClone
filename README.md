@@ -2,7 +2,7 @@ MineClone
 =========
 A Minesweeper clone written with C++ and Qt4 by Kevin Biskar
 
-INSTALLATION
+Installation
 ------------
 
 ### From Source
