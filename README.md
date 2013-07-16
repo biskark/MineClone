@@ -9,9 +9,11 @@ INSTALLATION
 * From Source
     - Must have a C++ compiler and Qt4 installed and accessible in your path
 
-    $ qmake-qt4 -project
-    $ qmake-qt4
-    $ make
+    - ```bash
+      $ qmake-qt4 -project
+      $ qmake-qt4
+      $ make
+      ```
 
     - Then either run the executable from the directory or copy it to your path.
 
