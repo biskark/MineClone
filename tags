@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CUSTOM	mainwindow.h	/^        enum {EASY, MEDIUM, HARD, CUSTOM};$/;"	e	enum:MainWindow::__anon1
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+Custom	custom.cpp	/^Custom::Custom(QWidget *parent) : QDialog(parent) {$/;"	f	class:Custom
+Custom	custom.h	/^class Custom : public QDialog {$/;"	c
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = \/home\/kevin\/bin\/$/;"	m
+DIST	Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/unix.conf \\$/;"	m
+EASY	mainwindow.h	/^        enum {EASY, MEDIUM, HARD, CUSTOM};$/;"	e	enum:MainWindow::__anon1
+Grid	grid.cpp	/^Grid::Grid(int x, int y, int m, QWidget *parent) $/;"	f	class:Grid
+Grid	grid.h	/^class Grid : public QWidget {$/;"	c
+HARD	mainwindow.h	/^        enum {EASY, MEDIUM, HARD, CUSTOM};$/;"	e	enum:MainWindow::__anon1
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++-64 -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -m64 -Wl,-O1$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/x86_64-linux-gnu -lQtGui -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MEDIUM	mainwindow.h	/^        enum {EASY, MEDIUM, HARD, CUSTOM};$/;"	e	enum:MainWindow::__anon1
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow() {$/;"	f	class:MainWindow
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow {$/;"	c
+NAME	mainwindow.h	/^        enum {TIME, NAME};$/;"	e	enum:MainWindow::__anon2
+OBJECTS	Makefile	/^OBJECTS       = custom.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake-qt4$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = mineclone$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = custom.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+Spot	spot.cpp	/^Spot::Spot(int row, int col, QWidget *parent)$/;"	f	class:Spot
+Spot	spot.h	/^class Spot : public QPushButton {$/;"	c
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = \/home\/kevin\/bin\/mineclone$/;"	m
+TIME	mainwindow.h	/^        enum {TIME, NAME};$/;"	e	enum:MainWindow::__anon2
+_CUSTOM_H	custom.h	2;"	d
+_GRID_H	grid.h	2;"	d
+_MAIN_WINDOW_H	mainwindow.h	2;"	d
+_SPOT_H	spot.h	2;"	d
+about	mainwindow.cpp	/^void MainWindow::about() {$/;"	f	class:MainWindow
+about_action	mainwindow.h	/^        QAction *about_action;$/;"	m	class:MainWindow
+adjacent	grid.h	/^        QList<Spot *> adjacent;$/;"	m	class:Grid
+best	mainwindow.h	/^        QString best[4][2];$/;"	m	class:MainWindow
+boom	grid.cpp	/^void Grid::boom() {$/;"	f	class:Grid
+box	grid.h	/^        QGridLayout *box;$/;"	m	class:Grid
+cancel_box	moc_custom.cpp	/^void Custom::cancel_box()$/;"	f	class:Custom
+change_difficulty	mainwindow.cpp	/^void MainWindow::change_difficulty() {$/;"	f	class:MainWindow
+check_surroundings	spot.cpp	/^void Spot::check_surroundings() {$/;"	f	class:Spot
+check_times	mainwindow.cpp	/^void MainWindow::check_times() {$/;"	f	class:MainWindow
+col	spot.h	/^        int col() const {return y;};$/;"	f	class:Spot
+cols	grid.h	/^        int cols;$/;"	m	class:Grid
+compare_times	mainwindow.cpp	/^int MainWindow::compare_times(QString *current, QString *saved) {$/;"	f	class:MainWindow
+confirm	custom.h	/^        QDialogButtonBox *confirm;$/;"	m	class:Custom
+confirmed	custom.cpp	/^void Custom::confirmed() {$/;"	f	class:Custom
+custom	mainwindow.h	/^        Custom *custom;$/;"	m	class:MainWindow
+custom_action	mainwindow.h	/^        QAction *custom_action;$/;"	m	class:MainWindow
+custom_difficulty_cancel	mainwindow.cpp	/^void MainWindow::custom_difficulty_cancel() {$/;"	f	class:MainWindow
+custom_difficulty_ok	mainwindow.cpp	/^void MainWindow::custom_difficulty_ok(int x, int y, int z) {$/;"	f	class:MainWindow
+deactivate_board	moc_grid.cpp	/^void Grid::deactivate_board()$/;"	f	class:Grid
+difficulty	mainwindow.h	/^        int difficulty;  \/\/ Current Difficulty$/;"	m	class:MainWindow
+double_click_spot	grid.cpp	/^void Grid::double_click_spot() {$/;"	f	class:Grid
+double_clicked	moc_spot.cpp	/^void Spot::double_clicked()const$/;"	f	class:Spot
+doubled	grid.h	/^        bool doubled;$/;"	m	class:Grid
+easy_action	mainwindow.h	/^        QAction *easy_action;$/;"	m	class:MainWindow
+easy_update	mainwindow.cpp	/^void MainWindow::easy_update() {$/;"	f	class:MainWindow
+file_menu	mainwindow.h	/^        QMenu *file_menu;$/;"	m	class:MainWindow
+first	mainwindow.h	/^        bool first;$/;"	m	class:MainWindow
+flag_toggled	moc_spot.cpp	/^void Spot::flag_toggled(bool _t1)$/;"	f	class:Spot
+flag_update	moc_grid.cpp	/^void Grid::flag_update(int _t1, int _t2)$/;"	f	class:Grid
+flags_changed	mainwindow.cpp	/^void MainWindow::flags_changed(int flags, int mines) {$/;"	f	class:MainWindow
+flags_marked	grid.h	/^        int flags_marked;$/;"	m	class:Grid
+focus	grid.h	/^        Spot *focus;$/;"	m	class:Grid
+focus_gone	spot.cpp	/^void Spot::focus_gone() {$/;"	f	class:Spot
+found_label	mainwindow.h	/^        QLabel *found_label;$/;"	m	class:MainWindow
+game_lost	mainwindow.cpp	/^void MainWindow::game_lost() {$/;"	f	class:MainWindow
+game_over	grid.h	/^        bool game_over;$/;"	m	class:Grid
+game_over	mainwindow.cpp	/^void MainWindow::game_over() {$/;"	f	class:MainWindow
+game_started	mainwindow.cpp	/^void MainWindow::game_started() {$/;"	f	class:MainWindow
+game_won	mainwindow.cpp	/^void MainWindow::game_won() {$/;"	f	class:MainWindow
+getStaticMetaObject	moc_custom.cpp	/^const QMetaObject &Custom::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Custom
+getStaticMetaObject	moc_grid.cpp	/^const QMetaObject &Grid::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Grid
+getStaticMetaObject	moc_mainwindow.cpp	/^const QMetaObject &MainWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:MainWindow
+getStaticMetaObject	moc_spot.cpp	/^const QMetaObject &Spot::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Spot
+grid	mainwindow.h	/^        Grid *grid;$/;"	m	class:MainWindow
+hard_action	mainwindow.h	/^        QAction *hard_action;$/;"	m	class:MainWindow
+hard_update	mainwindow.cpp	/^void MainWindow::hard_update() {$/;"	f	class:MainWindow
+help_menu	mainwindow.h	/^        QMenu *help_menu;$/;"	m	class:MainWindow
+hit_mine	moc_spot.cpp	/^void Spot::hit_mine()const$/;"	f	class:Spot
+is_mine	spot.cpp	/^bool Spot::is_mine() const {$/;"	f	class:Spot
+layout	custom.h	/^        QVBoxLayout *layout;$/;"	m	class:Custom
+layout	mainwindow.h	/^        QVBoxLayout *layout;$/;"	m	class:MainWindow
+left	grid.h	/^        bool left;$/;"	m	class:Grid
+left_click_spot	grid.cpp	/^void Grid::left_click_spot() {$/;"	f	class:Grid
+left_clicked	moc_spot.cpp	/^void Spot::left_clicked()const$/;"	f	class:Spot
+load_times	mainwindow.cpp	/^void MainWindow::load_times() {$/;"	f	class:MainWindow
+lost	moc_grid.cpp	/^void Grid::lost()$/;"	f	class:Grid
+lost_focus	moc_grid.cpp	/^void Grid::lost_focus()$/;"	f	class:Grid
+main	main.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+main	mainwindow.h	/^        QWidget *main;$/;"	m	class:MainWindow
+make_actions	mainwindow.cpp	/^void MainWindow::make_actions() {$/;"	f	class:MainWindow
+make_menu_bar	mainwindow.cpp	/^void MainWindow::make_menu_bar() {$/;"	f	class:MainWindow
+make_new_game_button	mainwindow.cpp	/^void MainWindow::make_new_game_button() {$/;"	f	class:MainWindow
+make_new_grid	mainwindow.cpp	/^void MainWindow::make_new_grid() {$/;"	f	class:MainWindow
+make_status_bar	mainwindow.cpp	/^void MainWindow::make_status_bar() {$/;"	f	class:MainWindow
+medium_action	mainwindow.h	/^        QAction *medium_action;$/;"	m	class:MainWindow
+medium_update	mainwindow.cpp	/^void MainWindow::medium_update() {$/;"	f	class:MainWindow
+menu_bar	mainwindow.h	/^        QMenuBar *menu_bar;$/;"	m	class:MainWindow
+metaObject	moc_custom.cpp	/^const QMetaObject *Custom::metaObject() const$/;"	f	class:Custom
+metaObject	moc_grid.cpp	/^const QMetaObject *Grid::metaObject() const$/;"	f	class:Grid
+metaObject	moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow
+metaObject	moc_spot.cpp	/^const QMetaObject *Spot::metaObject() const$/;"	f	class:Spot
+mine	spot.h	/^        bool mine;$/;"	m	class:Spot
+mines	grid.h	/^        int mines;$/;"	m	class:Grid
+mines_nearby	grid.cpp	/^void Grid::mines_nearby(Spot *spot) {$/;"	f	class:Grid
+mouseMoveEvent	grid.cpp	/^void Grid::mouseMoveEvent(QMouseEvent *e) {$/;"	f	class:Grid
+mousePressEvent	spot.cpp	/^void Spot::mousePressEvent(QMouseEvent *e) {$/;"	f	class:Spot
+mouseReleaseEvent	spot.cpp	/^void Spot::mouseReleaseEvent(QMouseEvent *e) {$/;"	f	class:Spot
+mouse_pressed	grid.cpp	/^void Grid::mouse_pressed(QMouseEvent *e) {$/;"	f	class:Grid
+mouse_released	grid.cpp	/^void Grid::mouse_released(QMouseEvent *e) {$/;"	f	class:Grid
+new_action	mainwindow.h	/^        QAction *new_action;$/;"	m	class:MainWindow
+new_game	mainwindow.cpp	/^void MainWindow::new_game() {$/;"	f	class:MainWindow
+new_game_button	mainwindow.h	/^        QPushButton *new_game_button;$/;"	m	class:MainWindow
+num_cols	custom.h	/^        QSpinBox *num_cols;$/;"	m	class:Custom
+num_cols	mainwindow.h	/^        int num_cols;$/;"	m	class:MainWindow
+num_mines	custom.h	/^        QSpinBox *num_mines;$/;"	m	class:Custom
+num_mines	mainwindow.h	/^        int num_mines;$/;"	m	class:MainWindow
+num_rows	custom.h	/^        QSpinBox *num_rows;$/;"	m	class:Custom
+num_rows	mainwindow.h	/^        int num_rows;$/;"	m	class:MainWindow
+ok_box	moc_custom.cpp	/^void Custom::ok_box(int _t1, int _t2, int _t3)$/;"	f	class:Custom
+open_spots	grid.cpp	/^int Grid::open_spots() {$/;"	f	class:Grid
+options	custom.h	/^        QGridLayout *options;$/;"	m	class:Custom
+options_menu	mainwindow.h	/^        QMenu *options_menu;$/;"	m	class:MainWindow
+pressed	moc_spot.cpp	/^void Spot::pressed(QMouseEvent * _t1)const$/;"	f	class:Spot
+qCleanupResources_resources	qrc_resources.cpp	/^int QT_MANGLE_NAMESPACE(qCleanupResources_resources)()$/;"	f
+qInitResources_resources	qrc_resources.cpp	/^int QT_MANGLE_NAMESPACE(qInitResources_resources)()$/;"	f
+qt_meta_data_Custom	moc_custom.cpp	/^static const uint qt_meta_data_Custom[] = {$/;"	v	file:
+qt_meta_data_Grid	moc_grid.cpp	/^static const uint qt_meta_data_Grid[] = {$/;"	v	file:
+qt_meta_data_MainWindow	moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
+qt_meta_data_Spot	moc_spot.cpp	/^static const uint qt_meta_data_Spot[] = {$/;"	v	file:
+qt_meta_stringdata_Custom	moc_custom.cpp	/^static const char qt_meta_stringdata_Custom[] = {$/;"	v	file:
+qt_meta_stringdata_Grid	moc_grid.cpp	/^static const char qt_meta_stringdata_Grid[] = {$/;"	v	file:
+qt_meta_stringdata_MainWindow	moc_mainwindow.cpp	/^static const char qt_meta_stringdata_MainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_Spot	moc_spot.cpp	/^static const char qt_meta_stringdata_Spot[] = {$/;"	v	file:
+qt_metacall	moc_custom.cpp	/^int Custom::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Custom
+qt_metacall	moc_grid.cpp	/^int Grid::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Grid
+qt_metacall	moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+qt_metacall	moc_spot.cpp	/^int Spot::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Spot
+qt_metacast	moc_custom.cpp	/^void *Custom::qt_metacast(const char *_clname)$/;"	f	class:Custom
+qt_metacast	moc_grid.cpp	/^void *Grid::qt_metacast(const char *_clname)$/;"	f	class:Grid
+qt_metacast	moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow
+qt_metacast	moc_spot.cpp	/^void *Spot::qt_metacast(const char *_clname)$/;"	f	class:Spot
+qt_resource_data	qrc_resources.cpp	/^static const unsigned char qt_resource_data[] = {$/;"	v	file:
+qt_resource_name	qrc_resources.cpp	/^static const unsigned char qt_resource_name[] = {$/;"	v	file:
+qt_resource_struct	qrc_resources.cpp	/^static const unsigned char qt_resource_struct[] = {$/;"	v	file:
+qt_static_metacall	moc_custom.cpp	/^void Custom::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Custom
+qt_static_metacall	moc_grid.cpp	/^void Grid::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Grid
+qt_static_metacall	moc_mainwindow.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+qt_static_metacall	moc_spot.cpp	/^void Spot::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Spot
+quit_action	mainwindow.h	/^        QAction *quit_action;$/;"	m	class:MainWindow
+quit_game	mainwindow.cpp	/^void MainWindow::quit_game() {$/;"	f	class:MainWindow
+rejected	custom.cpp	/^void Custom::rejected() {$/;"	f	class:Custom
+released	moc_spot.cpp	/^void Spot::released(QMouseEvent * _t1)const$/;"	f	class:Spot
+reveal	grid.cpp	/^void Grid::reveal(Spot *spot, const char *type, int criteria) {$/;"	f	class:Grid
+reveal	spot.cpp	/^void Spot::reveal() {$/;"	f	class:Spot
+reveal_nearby_flags	moc_spot.cpp	/^void Spot::reveal_nearby_flags(Spot * _t1)const$/;"	f	class:Spot
+reveal_nearby_spots	moc_spot.cpp	/^void Spot::reveal_nearby_spots(Spot * _t1)const$/;"	f	class:Spot
+revealed	grid.h	/^        int revealed;$/;"	m	class:Grid
+right	grid.h	/^        bool right;$/;"	m	class:Grid
+right_click_spot	grid.cpp	/^void Grid::right_click_spot() {$/;"	f	class:Grid
+right_clicked	moc_spot.cpp	/^void Spot::right_clicked()const$/;"	f	class:Spot
+row	spot.h	/^        int row() const {return x;};$/;"	f	class:Spot
+rows	grid.h	/^        int rows;$/;"	m	class:Grid
+save_times	mainwindow.cpp	/^void MainWindow::save_times() {$/;"	f	class:MainWindow
+set_defaults	mainwindow.cpp	/^void MainWindow::set_defaults() {$/;"	f	class:MainWindow
+set_mine	spot.cpp	/^void Spot::set_mine() {$/;"	f	class:Spot
+set_mines	grid.cpp	/^void Grid::set_mines(Spot *spot) {$/;"	f	class:Grid
+setup_buttons	custom.cpp	/^void Custom::setup_buttons() {$/;"	f	class:Custom
+setup_default	custom.cpp	/^void Custom::setup_default(int rows, int cols, int mines) {$/;"	f	class:Custom
+setup_grid	custom.cpp	/^void Custom::setup_grid() {$/;"	f	class:Custom
+setup_layout	custom.cpp	/^void Custom::setup_layout() {$/;"	f	class:Custom
+show_mine	spot.cpp	/^void Spot::show_mine() {$/;"	f	class:Spot
+show_nearby	spot.cpp	/^void Spot::show_nearby(int mines) {$/;"	f	class:Spot
+show_nearby_flags	grid.cpp	/^void Grid::show_nearby_flags(Spot *spot) {$/;"	f	class:Grid
+sizeHint	spot.cpp	/^QSize Spot::sizeHint() const {$/;"	f	class:Spot
+spot_revealed	grid.cpp	/^void Grid::spot_revealed() {$/;"	f	class:Grid
+start	moc_grid.cpp	/^void Grid::start()$/;"	f	class:Grid
+staticMetaObject	moc_custom.cpp	/^const QMetaObject Custom::staticMetaObject = {$/;"	m	class:Custom	file:
+staticMetaObject	moc_grid.cpp	/^const QMetaObject Grid::staticMetaObject = {$/;"	m	class:Grid	file:
+staticMetaObject	moc_mainwindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+staticMetaObject	moc_spot.cpp	/^const QMetaObject Spot::staticMetaObject = {$/;"	m	class:Spot	file:
+staticMetaObjectExtraData	moc_custom.cpp	/^const QMetaObjectExtraData Custom::staticMetaObjectExtraData = {$/;"	m	class:Custom	file:
+staticMetaObjectExtraData	moc_grid.cpp	/^const QMetaObjectExtraData Grid::staticMetaObjectExtraData = {$/;"	m	class:Grid	file:
+staticMetaObjectExtraData	moc_mainwindow.cpp	/^const QMetaObjectExtraData MainWindow::staticMetaObjectExtraData = {$/;"	m	class:MainWindow	file:
+staticMetaObjectExtraData	moc_spot.cpp	/^const QMetaObjectExtraData Spot::staticMetaObjectExtraData = {$/;"	m	class:Spot	file:
+stats	mainwindow.cpp	/^void MainWindow::stats() {$/;"	f	class:MainWindow
+stats_action	mainwindow.h	/^        QAction *stats_action;$/;"	m	class:MainWindow
+status_bar	mainwindow.h	/^        QStatusBar *status_bar;$/;"	m	class:MainWindow
+time	mainwindow.h	/^        QTime *time;$/;"	m	class:MainWindow
+time_label	mainwindow.h	/^        QLabel *time_label;$/;"	m	class:MainWindow
+timer	mainwindow.h	/^        QTimer *timer;$/;"	m	class:MainWindow
+title	mainwindow.h	/^        QString title;$/;"	m	class:MainWindow
+toggle_flag	spot.cpp	/^void Spot::toggle_flag() {$/;"	f	class:Spot
+turn_off	spot.cpp	/^void Spot::turn_off() {$/;"	f	class:Spot
+unset_mine	spot.cpp	/^void Spot::unset_mine() {$/;"	f	class:Spot
+update_flags	grid.cpp	/^void Grid::update_flags(bool status) {$/;"	f	class:Grid
+update_focus	grid.cpp	/^void Grid::update_focus() {$/;"	f	class:Grid
+update_max_mines	custom.cpp	/^void Custom::update_max_mines(int i) {$/;"	f	class:Custom
+update_property	spot.cpp	/^void Spot::update_property(const char *prop, bool status) {$/;"	f	class:Spot
+update_property	spot.cpp	/^void Spot::update_property(const char *prop, int status) {$/;"	f	class:Spot
+update_timer	mainwindow.cpp	/^void MainWindow::update_timer() {$/;"	f	class:MainWindow
+update_times	mainwindow.cpp	/^void MainWindow::update_times(QString *t) {$/;"	f	class:MainWindow
+won	moc_grid.cpp	/^void Grid::won()$/;"	f	class:Grid
+x	spot.h	/^        int x, y;$/;"	m	class:Spot
+y	spot.h	/^        int x, y;$/;"	m	class:Spot
